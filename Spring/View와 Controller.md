@@ -1,4 +1,4 @@
-#Controller & View
+# Controller & View
 Controller에서 데이터를 처리해서 View에 표시합니다.<br/>
 Controller -> View 의 간단한 소스 코드는 다음과 같습니다.<br/><br/>
 

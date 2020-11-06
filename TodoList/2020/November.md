@@ -190,3 +190,26 @@ def main():
 
 main()
 ```
+
+# 2020/11/05
+
+오늘도 코세라
+
+subprocess.run()할때 명령의 출력을 처리 할 수 ​​있도록 capture_output이라는 매개 변수를 true로 설정합니다. 리턴코드,stdout,stderr확인 가능
+
+unittest라는 모듈이 있음
+
+unittest.TestCase
+
+assertEqual로 input과 output이 잘이뤄지는지 체크가능
+
+# 2020/11/06
+
+Python OS 강의 Final project 제출함
+
+정말 말 그대로 과제만 딱 했는데 자꾸 덜했다고 돌려보내서 이게 무슨 일인가 했더니
+
+과제 하기 전에 있는 튜토리얼 같은 부분도 필수로 해야함..
+
+이걸 몰라서 시간을 버렸네~
+

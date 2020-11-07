@@ -213,3 +213,42 @@ Python OS 강의 Final project 제출함
 
 이걸 몰라서 시간을 버렸네~
 
+# 2020/11/07
+
+ab 테스트로 웹 서버 테스트
+
+Linux에서 time 명령어로 스크립트 돌아간 시간 체크가능
+
+pprofile3 -f callgrind -p profile.out ./script.py
+
+kcachegrind profile.out
+
+스레드는 동일한 변수에 쓰려고 하는 두 개의 스레드를 사용하지 않기 위해 다수의 안전 기능을 사용한다. 
+
+그리고 이는 스레드를 사용할 때, 두 접근법 사이의 작은 차이를 더하면서, 그들이 몇 밀리초 동안 변수에 쓸 차례를 기다리게 될지도 모른다는 것을 의미한다.
+
+따라서 병렬 처리..? 할때 스레드보다 프로세스가 더 빠름
+
+Segfault == Accessing Invalid Memory
+
+### gdb로 디버깅
+------
+ex) gdb -c core example
+
+(gdb) backtrace
+
+(gdb) up
+
+(gdb) list
+
+(gdb) print element
+
+--------
+
+### pdb3 => python debugger
+--------------------
+
+(pdb) continue
+
+(pdb) print(element)
+

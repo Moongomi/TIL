@@ -252,3 +252,14 @@ ex) gdb -c core example
 
 (pdb) print(element)
 
+
+# 2020/11/08
+
+python 메모리 검사 python3 -m memory_profiler python.py
+
+python 코드에서 쓸거면 @profile 사용
+
+puppet 이용해서 Configuration 하는 방법 배움
+
+대애충은 알겠는데 자유자재로 사용하려면 공식 문서 보면서 연습해야할듯
+
